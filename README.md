@@ -1,7 +1,7 @@
 # Android : IamToast
 Another Toast library for Android
 
-![alt text](https://raw.githubusercontent.com/kasamsun/iamtoast/master/images/toast-sample.png "Toast sammple")
+![alt text](https://raw.githubusercontent.com/kasamsun/iam-toast/master/images/toast-sample.png "Toast sammple")
 
 # How to
 
@@ -16,7 +16,7 @@ allprojects {
 
 ```
 dependencies {
-    implementation 'com.github.kasamsun:iamtoast:1.0.5'
+    implementation 'com.github.kasamsun:iam-toast:1.0.0'
 }
 ```
 
