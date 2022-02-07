@@ -1,11 +1,10 @@
-package com.kswafx.iamtoast.sample
+package com.kswafx.iamtoast
 
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.RadioGroup
 import androidx.appcompat.app.AppCompatActivity
-import com.kswafx.iamtoast.IamToast
 
 
 class MainActivity : AppCompatActivity() {
