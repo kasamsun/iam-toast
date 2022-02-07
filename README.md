@@ -1,6 +1,8 @@
 # Android : IamToast
 Another Toast library for Android
 
+Warning. toast custom view is deprecated since android 11(R) 
+
 ![alt text](https://raw.githubusercontent.com/kasamsun/iam-toast/master/assets/toast-normal-inset.png "Toast sammple")
 
 # Setup
