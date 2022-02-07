@@ -3,7 +3,7 @@ Another Toast library for Android
 
 ![alt text](https://raw.githubusercontent.com/kasamsun/iam-toast/master/assets/toast-normal-inset.png "Toast sammple")
 
-# How to
+# Setup
 
 ```
 allprojects {
@@ -20,6 +20,7 @@ dependencies {
 }
 ```
 
+# Usage
 ```kotlin
 
 IamToast.info(this, "You have got mail. Please check your mail box.")
@@ -33,31 +34,57 @@ IamToast.warning(this, "Please enter more data to complete transaction.")
 IamToast.error(this, "Server is busy. Please try again later.")
 
 ```
+You can specify toast position [TOP,BOTTOM(*)] and duration [SHORT(*),LONG]
+```kotlin
 
-# Change style
+IamToast.normal(
+    this,
+    "Hello, world",
+    IamToast.GRAVITY_TOP,
+    IamToast.SHORT_DURATION
+)
+
+IamToast.normal(
+    this,
+    "Hello, world",
+    IamToast.GRAVITY_BOTTOM,
+    IamToast.LONG_DURATION
+)
+
+```
+
+
+# Style
 
 There are 2 default style, inset and outset.
-```
+```kotlin
+
 IamToast.apply {
     this.iconStyle = IamToast.ICON_STYLE_INSET
 }
+
 ```
 
 ![alt text](https://raw.githubusercontent.com/kasamsun/iam-toast/master/assets/toast-normal-inset.png "Toast sammple")
-```
+```kotlin
+
 IamToast.apply {
     this.iconStyle = IamToast.ICON_STYLE_OUTSET
 }
+
 ```
 ![alt text](https://raw.githubusercontent.com/kasamsun/iam-toast/master/assets/toast-normal-outset.png "Toast sammple")
 
 You can reset style to default
-```
+```kotlin
+
 IamToast.resetStyle()
+
 ```
 
-You can set color you want 
-```
+You can set color and icon you want 
+```kotlin
+
 IamToast.apply {
     this.infoTitle = "ข้อความ"
     this.normalTitle = "ข้อความ"
