@@ -34,7 +34,7 @@ IamToast.warning(this, "Please enter more data to complete transaction.")
 IamToast.error(this, "Server is busy. Please try again later.")
 
 ```
-You can specify toast position [TOP,BOTTOM(*)] and duration [SHORT(*),LONG]
+You can specify toast position [TOP,BOTTOM(default)] and duration [SHORT(default),LONG]
 ```kotlin
 
 IamToast.normal(
