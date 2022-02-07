@@ -256,15 +256,19 @@
     <color name="blue_grey_darken_3">#37474f</color>
     <color name="blue_grey_darken_4">#263238</color>
 
-    <color name="toast_error_bg_color">#ddffcdd2</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00ffffff</color>
+
+    <color name="toast_error_bg_color">@color/red_lighten_5</color>
     <color name="toast_error_color">@color/red</color>
-    <color name="toast_info_bg_color">#ddbbdefb</color>
+    <color name="toast_info_bg_color">@color/blue_lighten_5</color>
     <color name="toast_info_color">@color/blue</color>
-    <color name="toast_success_bg_color">#ddc8e6c9</color>
+    <color name="toast_success_bg_color">@color/green_lighten_5</color>
     <color name="toast_success_color">@color/green</color>
-    <color name="toast_warning_bg_color">#ddffe0b2</color>
+    <color name="toast_warning_bg_color">@color/orange_lighten_5</color>
     <color name="toast_warning_color">@color/orange</color>
-    <color name="toast_normal_bg_color">#ddf5f5f5</color>
+    <color name="toast_normal_bg_color">@color/grey_lighten_5</color>
     <color name="toast_normal_color">@color/grey_darken_1</color>
 
 

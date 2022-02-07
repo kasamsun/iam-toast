@@ -6,15 +6,33 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".sample.MainActivity">
 
-    <Button
-        android:id="@+id/buttonInfo"
-        android:layout_width="wrap_content"
+    <RadioGroup
+        android:id="@+id/style_group"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="16dp"
-        android:backgroundTint="@color/blue"
-        android:text="Info Toast" />
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/style_inset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Inset" />
+
+        <RadioButton
+            android:id="@+id/style_outset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Outset" />
+
+        <RadioButton
+            android:id="@+id/style_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Style" />
+    </RadioGroup>
 
     <Button
         android:id="@+id/buttonNormal"
@@ -23,6 +41,14 @@
         android:padding="16dp"
         android:backgroundTint="@color/grey"
         android:text="Normal Toast" />
+
+    <Button
+        android:id="@+id/buttonInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:backgroundTint="@color/blue"
+        android:text="Info Toast" />
 
     <Button
         android:id="@+id/buttonSuccess"
